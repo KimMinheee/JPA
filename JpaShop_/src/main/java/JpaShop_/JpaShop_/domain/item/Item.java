@@ -39,5 +39,9 @@ public abstract class Item {
         }
         this.stockQuantity=restStock;
     }
+    public void updateItem(String name, int count){
+        this.name=name;
+        this.stockQuantity=count;
+    }
 
 }

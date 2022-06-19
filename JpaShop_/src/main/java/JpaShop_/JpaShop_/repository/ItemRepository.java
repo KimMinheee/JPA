@@ -19,7 +19,7 @@ public class ItemRepository {
         }
         else{
             //기존에 등록한 적 있는(id가 있는) item을 등록할 때
-            em.merge(item); //이거 나중에 고칠거임.
+           // em.merge(item); //이거 나중에 고칠거임.
         }
     }
 
