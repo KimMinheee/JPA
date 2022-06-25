@@ -7,7 +7,7 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: create #자동으로 테이블 생성해주는 속성.
+      ddl-auto: none #자동으로 테이블 생성해주는 속성.
     properties:
       hibernate:
         #    show_sql: true  //System.out.print로 sql문을 출력
