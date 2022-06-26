@@ -13,9 +13,9 @@ spring:
       ddl-auto: create #자동으로 테이블 생성해주는 속성.
     properties:
       hibernate:
-        #    show_sql: true  //System.out.print로 sql문을 출력
+      #   show_sql: true  //System.out.print로 sql문을 출력
         format_sql: true
 
 logging.level:
   org.hibernate.SQL: debug  #logging으로 sql문을 출력
-  org.hibernate.type: trace #sql문이 출력될 때 파라미터 값이 ?로 뜨는걸 값이 출력되도록 하는 설정.
+  #org.hibernate.type: trace #sql문이 출력될 때 파라미터 값이 ?로 뜨는걸 값이 출력되도록 하는 설정.
